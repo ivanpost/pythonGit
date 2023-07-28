@@ -14,7 +14,7 @@ def send_data(data):
 
 # Функция, вызываемая при нажатии клавиш
 def on_key_press(key):
-    if key.name == 'B':
+    if key.name == 'b':
         send_data('B')
     elif key.name == 'R':
         send_data('R')
