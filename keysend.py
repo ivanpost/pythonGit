@@ -2,7 +2,7 @@ import serial
 import keyboard
 import serial.tools.list_ports
 
-com_port = 'COM3'
+com_port = 'COM4'
 baud_rate = 9600
 
 ser = serial.Serial(com_port, baud_rate)
